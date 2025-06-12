@@ -12,6 +12,7 @@ spec:
     metadata:
       labels:
         app: guestbook-ui
+    namespace: harness-test
     spec:
       containers:
       - image: docker.io/corelab/ks-guestbook-demo:0.2
